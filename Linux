@@ -14,3 +14,12 @@
   保存并退出：:wq
   换文件名：mv 路径+旧路径名 路径+新文件名
   查看文件内容：cat 文件名
+用makefile文件编译text.cpp
+makefile：
+    begin:text.o
+        g++ -o text text.o
+    text.o:text.cpp
+        g++ -c text.cpp
+    clean:
+        rm -rf *.o text              
+  
