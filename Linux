@@ -1,0 +1,8 @@
+命令及用法：
+  进入指定文件夹：cd 路径
+  查看文件夹中内容：ls 
+  创建文件夹：mkdir 文件夹名字
+  删除文件夹：rm -rf 路径（rm -rf /root/php）
+  创建文件：touch 路径+文件名（touch ./text.c）
+  删除文件：rm 路径
+  查看当前目录：pwd
