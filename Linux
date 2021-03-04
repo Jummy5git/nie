@@ -24,3 +24,10 @@ makefile：
     clean:
         rm -rf *.o text              
   
+##模拟客户端连接虚拟机：(能ping ip 通，无法连接，是防火墙没开通端口）
+telnet IP 端口
+##centos防火墙操作：
+查看防火墙状态：
+systemctl status firewalld.service
+关闭防火墙：
+systemctl stop firewalld.service
